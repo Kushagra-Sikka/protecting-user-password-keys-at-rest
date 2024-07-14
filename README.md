@@ -38,7 +38,7 @@ Protecting User Password Keys at Rest is a Python-based application that encrypt
 2. Protect the FEK with a user passphrase.
 
    ```bash
-   python encrypt.py --file <path_to_file_or_directory> --passphrase <user_passphrase>
+   python project.py --file <path_to_file_or_directory> --passphrase <user_passphrase>
    ```
 
 #### Authenticate User and Decrypt File:
@@ -47,7 +47,7 @@ Protecting User Password Keys at Rest is a Python-based application that encrypt
 2. Decrypt the file or directory using the decrypted FEK.
 
    ```bash
-   python decrypt.py --file <path_to_encrypted_file_or_directory> --passphrase <user_passphrase>
+   python project.py --file <path_to_encrypted_file_or_directory> --passphrase <user_passphrase>
    ```
 
 ### Example
@@ -55,10 +55,10 @@ Protecting User Password Keys at Rest is a Python-based application that encrypt
 To encrypt a file:
 
 ```bash
-python encrypt.py --file myfile.txt --passphrase mysecretpassword
+python project.py --file myfile.txt --passphrase mysecretpassword
 ```
 
 To decrypt the same file:
 
 ```bash
-python decrypt.py --file myfile.txt.enc --passphrase mysecretpassword
+python project.py --file myfile.txt.enc --passphrase mysecretpassword
