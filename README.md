@@ -23,5 +23,10 @@ Protecting User Password Keys at Rest is a Python-based application that encrypt
 1. **Clone the Repository:**
 
    ```bash
-   git clone https://github.com/yourusername/protecting-user-password-keys-at-rest.git
+   git clone https://github.com/Kushagra-Sikka/protecting-user-password-keys-at-rest.git
    cd protecting-user-password-keys-at-rest
+
+2. **Install Dependencies:**
+   ```bash
+   pip install cryptography
+   
