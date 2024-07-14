@@ -43,8 +43,3 @@ To run the application, follow these steps:
    ```
 
 4. Follow the on-screen prompts to perform encryption or decryption of files and directories.
-
-To decrypt the same file:
-
-```bash
-python3 project.py
