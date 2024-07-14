@@ -30,33 +30,19 @@ Protecting User Password Keys at Rest is a Python-based application that encrypt
    ```bash
    pip install cryptography
 
-### Usage
+## Usage
 
-#### Encrypt a File or Directory:
+To run the application, follow these steps:
 
-1. Encrypt using a random File Encryption Key (FEK).
-2. Protect the FEK with a user passphrase.
-
-   ```bash
-   python3 project.py
-   ```
-
-#### Authenticate User and Decrypt File:
-
-1. Decrypt the FEK using the user passphrase.
-2. Decrypt the file or directory using the decrypted FEK.
+1. Open a terminal or command prompt.
+2. Navigate to the project directory where you cloned the repository.
+3. Run the following command:
 
    ```bash
    python3 project.py
    ```
 
-### Example
-
-To encrypt a file:
-
-```bash
-python3 project.py
-```
+4. Follow the on-screen prompts to perform encryption or decryption of files and directories.
 
 To decrypt the same file:
 
