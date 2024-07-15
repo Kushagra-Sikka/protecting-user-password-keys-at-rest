@@ -13,7 +13,7 @@ Protecting User Password Keys at Rest is a Python-based application that encrypt
 
 ## Getting Started
 
-## Video Demo
+### Video Demo
 
 https://github.com/user-attachments/assets/0cdca272-5c9a-457a-bcb0-4c3a856de00f
 
@@ -34,7 +34,7 @@ https://github.com/user-attachments/assets/0cdca272-5c9a-457a-bcb0-4c3a856de00f
    ```bash
    pip install cryptography
   
-## Project Files
+### Project Files
 
 - `project.py`: The main Python script that implements the encryption, key storage, and decryption functionalities.
 
