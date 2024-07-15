@@ -29,17 +29,46 @@ Protecting User Password Keys at Rest is a Python-based application that encrypt
 2. **Install Dependencies:**
    ```bash
    pip install cryptography
+  
+## Project Files
+
+- `project.py`: The main Python script that implements the encryption, key storage, and decryption functionalities.
+
 
 ## Usage
 
-To run the application, follow these steps:
-
+### Encrypting a File or Directory
 1. Open a terminal or command prompt.
+
 2. Navigate to the project directory where you cloned the repository.
-3. Run the following command:
 
-   ```bash
-   python3 project.py
-   ```
+3. **Run the Script**: 
+    ```sh
+    python3 project.py
+    ```
 
-4. Follow the on-screen prompts to perform encryption or decryption of files and directories.
+4. **Choose the Encryption Option**: Follow the on-screen prompts to select the option for encrypting a file or directory.
+
+5. **Select the File/Directory**: Provide the path to the file or directory you wish to encrypt.
+
+6. **Enter a Passphrase**: Input a passphrase that will be used to protect the encryption key.
+
+7. **Complete Encryption**: The application will encrypt the selected file or directory and store the encryption key securely.
+
+### Decrypting a File or Directory
+1. Open a terminal or command prompt.
+
+2. Navigate to the project directory where you cloned the repository.
+
+3. **Run the Script**: 
+    ```sh
+    python3 project.py
+    ```
+
+4. **Choose the Decryption Option**: Follow the on-screen prompts to select the option for decrypting a file or directory.
+
+5. **Select the File/Directory**: Provide the path to the encrypted file or directory.
+
+6. **Enter the Passphrase**: Input the passphrase used during the encryption process.
+
+7. **Complete Decryption**: The application will authenticate the passphrase, retrieve the encryption key, and decrypt the file or directory.
