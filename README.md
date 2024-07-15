@@ -13,6 +13,12 @@ Protecting User Password Keys at Rest is a Python-based application that encrypt
 
 ## Getting Started
 
+## Video Demo
+
+[![Demo Video](videos/thumbnail.png)](videos/example.mp4)
+
+Click the image above to watch the demo video.
+
 ### Prerequisites
 
 - Python 3.x
