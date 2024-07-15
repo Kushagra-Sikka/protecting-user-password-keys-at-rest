@@ -15,9 +15,7 @@ Protecting User Password Keys at Rest is a Python-based application that encrypt
 
 ## Video Demo
 
-[![Demo Video](videos/thumbnail.png)](videos/example.mp4)
-
-Click the image above to watch the demo video.
+https://github.com/user-attachments/assets/0cdca272-5c9a-457a-bcb0-4c3a856de00f
 
 ### Prerequisites
 
